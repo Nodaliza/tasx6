@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/roboto/Roboto-Regular.woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/roboto/Roboto-Medium.woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/roboto/Roboto-Bold.woff2');
+  font-weight: 900;
+}
+
+* {
+  margin: 0px;
+  font-family: 'roboto', sans-serif;
+  box-sizing: border-box;
+}
+.header{
+  padding-left: 40%;
+  padding-top: 20px;
+
+}
+.nav ul li{
+  display: inline-block;
+  margin: 30px;
+  list-style: none;
+  text-transform: capitalize;
+}
+.nav ul li a{
+  color: #FFC80A;
+  text-decoration: none;
+}
+
+li::before{
+  margin-right:10px;
+}
+li.map::before{
+  content: url(../images/logo/Path\ 715.svg);
+
+}
+li.shopping::before{
+  content: url(../images/logo/007-shopping-bag.svg);
+}
+li.restaurant::before{
+  content: url(../images/logo/005-wine.svg);
+}
+li.fun::before{
+  content: url(../images/logo/004-confetti.svg);
+}
+li.cinema::before{
+  content: url(../images/logo/003-film.svg);
+}
+li.working.hours::before{
+  content:url(../images/logo/002-clock.svg);
+}
+li.contacts::before{
+  content: url(../images/logo/001-telephone.svg);
+}
+li.en.ar::before{
+  content: url(../images/logo/search.svg);
+}
+ input[type=button]{
+  margin-top: 50px;  
+  height: 30px;
+  width: 150px;
+  border-radius: 25px;
+}
+.products{
+  padding-top: 40px;
+   margin-bottom: 50px;
+   display:inline-flex;
+   line-height: 30px;
+   margin-left: 160px;
+  
+}
+ h2{
+  text-decoration: underline;
+}
+
+.products:first-child{
+  display:inline-flex;
+  margin-right: 50px;
+}
+.pps ul li{
+  display:inline-block;
+  margin-right: 20px;
+  margin: 100px;
+  list-style: none;
+  text-transform: capitalize;
+  line-height: 30px;
+  justify-items: first baseline;
+
+}
+.dds{
+  
+  padding-left: 40%;
+}
+
+
+
+
+
+
+
+
+
